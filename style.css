@@ -1,5 +1,5 @@
 Header {
-	background: #00fff2;
+	background: #000000;
 	padding: 20px 0;
 }
 
@@ -21,58 +21,60 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #000000;
+	color: #ff0000;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 20px;
 	text-decoration: none;
 }
 
 nav a:hover {
-	color: #C78C19;
+	color: #000000;
 	text-decoration: underline;
 }
 
 
 .principal{
-    background-color: aquamarine;
+    background-color: rgb(255, 0, 0);
     padding: 30px;
 }
 .titulo-principal{
-    padding-left:20px;
+    padding-left:40px;
     text-align: left;
 }
 .titulo-centralizado{
     text-align: center;
+    font-size: 40px;
 }
-#banner{
+#img-home{
    width: 100%;
 }
 p{
     text-align: center;
 
 }
-#missao{
-    font-size: 20px;
+#mensagem-motivadora{
+    font-size: 30px;
 
 }
+
+.secimg {
+
+    height: 700px;
+    background-image: url(imagenskenerdoperformance/motor-honda-si.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+  
+}
+
 
 em strong{
     color: hsl(0, 0%, 0%);
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
 }
 
-.beneficios{
-   background-color: aquamarine;
-   padding: 20px;
-   
-}
-.listabeneficios{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;   
-}*/
 .itens{
     font-style: italic;
 }
@@ -81,7 +83,7 @@ em strong{
 }
 footer{
     text-align: center;
-    background: url("ARQUIVOS_BARBEARIA/bg.jpg");
+    background:url("imagenskenerdoperformance/FUNDO.jpg");
     padding: 40px 0;
-    color: #00fff2;
+    color: #ff0000;
 }

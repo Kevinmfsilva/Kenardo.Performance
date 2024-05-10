@@ -1,5 +1,5 @@
 header {
-	background: #00fff2;
+	background: #000000;
 	padding: 20px 0;
 }
 
@@ -21,14 +21,14 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #000000;
+	color: #ff0000;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
 }
 
 nav a:hover {
-	color: #C78C19;
+	color: #000000;
 	text-decoration: underline;
 }
 
@@ -51,11 +51,11 @@ nav a:hover {
 }
 
 .produtos li:hover {
-	border-color: #00ffc3;
+	border-color: #ff0000;
 }
 
 .produtos li:active {
-	border-color: #00ffc3;	
+	border-color: #ff0000;	
 }
 
 .produtos li:hover h2 {
@@ -78,16 +78,16 @@ nav a:hover {
 }
 
 footer {
-	
-		text-align: center;
-		background: url("ARQUIVOS_BARBEARIA/bg.jpg") ;
-		padding: 40px 0;
+	text-align: center;
+	background: url("imagenskenerdoperformance/FUNDO.jpg");
+	padding: 40px 0;
+	color: #ff0000
 	
 	
 }
 
 .copyright {
-	color: #5100ff;
+	color: #ff0000;
 	font-size: 13px;
 	margin: 20px 0 0;
 }
@@ -121,8 +121,8 @@ form label, form legend {
 .enviar {
 	width:40%;
 	padding: 15px 0;
-	background: rgb(0, 255, 247);
-	color: rgb(0, 221, 255);
+	background: rgb(255, 0, 0);
+	color: rgb(255, 255, 255);
 	font-weight: bold;
 	font-size: 18px;
 	border: none;
@@ -132,6 +132,6 @@ form label, form legend {
 }
 
 .enviar:hover {
-	background: darkorange;
+	background: rgb(0, 0, 0);
 	transform: scale(1.2);
 }
